@@ -2,7 +2,10 @@
 
 Analytics SDK for Figma plugins. Track user actions, session duration, and metrics in your Figma plugins.
 
-Website: [usetode.dev](https://usetode.dev) · Docs: [docs.usetode.dev](https://docs.usetode.dev) · Dashboard: [app.usetode.dev](https://app.usetode.dev)
+[![npm](https://img.shields.io/npm/v/@tode-sdk/core?label=%40tode-sdk%2Fcore)](https://www.npmjs.com/package/@tode-sdk/core)
+[![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+
+Website: [usetode.dev](https://usetode.dev) · Docs: [docs.usetode.dev](https://docs.usetode.dev) · Dashboard: [app.usetode.dev](https://app.usetode.dev) · npm: [@tode-sdk](https://www.npmjs.com/org/tode-sdk)
 
 ## Packages
 
@@ -224,6 +227,10 @@ npm run build:react
 # etc.
 ```
 
+## Contributing
+
+Issues and pull requests are welcome at [github.com/kolebayev/tode-sdk](https://github.com/kolebayev/tode-sdk). All six packages share one version and are released together; see [CHANGELOG.md](./CHANGELOG.md).
+
 ## License
 
-MIT
+MIT, see [LICENSE](./LICENSE).
