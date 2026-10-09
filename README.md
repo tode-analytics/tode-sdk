@@ -200,7 +200,7 @@ When an adapter starts listening it posts `{ type: 'TODE_UI_READY' }` to the plu
 
 `trackAction()` / `trackActionWithMetric()` never throw or reject - a failed request (network error, invalid API key, rate limiting) is only reported via `console.error`, regardless of `debug`. The log line carries the API's reason, for example `HTTP 429: Event quota for this billing period is used up`. There is currently no way to detect delivery failure programmatically from plugin code; watch the console during development.
 
-In particular, if a plugin's manifest doesn't request Figma "identity" access (so `figma.currentUser` is `null`) or a GeoIP lookup fails, the SDK substitutes safe fallback values (`'unknown'` / `''`) rather than sending `null` - so events aren't silently rejected by the backend's required-field validation.
+In particular, if a plugin's manifest doesn't list `"permissions": ["currentuser"]` (so `figma.currentUser` is `null`) or a GeoIP lookup fails, the SDK substitutes safe fallback values (`'unknown'` / `''`) rather than sending `null` - so events aren't silently rejected by the backend's required-field validation.
 
 If a plan's event quota is exceeded, the backend responds with `429` and the SDK likewise only logs this to the console - there is no callback or return value to detect throttling from plugin code.
 
