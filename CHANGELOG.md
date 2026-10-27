@@ -4,6 +4,12 @@ All notable changes to the `@tode-sdk/*` packages are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). All six packages share one version; releases are cut by tagging `v<version>`, which runs `.github/workflows/publish.yml`, or by hand with `npm run release`.
 
+## [1.0.1] - 2026-10-27
+
+### Changed
+
+- The source moved to the `tode-analytics` GitHub organization: `repository.url` and `bugs.url` of all six packages now point at `tode-analytics/tode-sdk`. No code changes.
+
 ## [1.0.0] - 2026-10-08
 
 First npm release. Default endpoints moved to `https://processing.usetode.dev` and `wss://processing.usetode.dev`, matching the `manifest.json` allow-list in the docs.

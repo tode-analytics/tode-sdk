@@ -1,6 +1,6 @@
 {
   "name": "@tode-sdk/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core Tode Analytics SDK - shared types and base class",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

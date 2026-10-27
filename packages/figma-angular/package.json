@@ -1,6 +1,6 @@
 {
   "name": "@tode-sdk/figma-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tode Analytics SDK for Figma plugins built with Angular",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

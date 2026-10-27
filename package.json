@@ -1,6 +1,6 @@
 {
   "name": "tode-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Tode Analytics SDK for Figma plugins",
   "workspaces": [

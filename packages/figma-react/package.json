@@ -1,6 +1,6 @@
 {
   "name": "@tode-sdk/figma-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tode Analytics SDK for Figma plugins built with React",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
