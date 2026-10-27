@@ -48,7 +48,7 @@ First npm release. Default endpoints moved to `https://processing.usetode.dev` a
 
 - A session socket error is logged only with `debug: true`; the reconnect that follows handles it. Failed HTTP requests are still always logged.
 
-- All 6 packages' `repository.url` now point at `kolebayev/tode-sdk` instead of two different stale standalone-repo URLs.
+- All 6 packages' `repository.url` now point at `tode-analytics/tode-sdk` instead of two different stale standalone-repo URLs.
 
 ### Documentation
 

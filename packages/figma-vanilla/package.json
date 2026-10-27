@@ -48,7 +48,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kolebayev/tode-sdk.git",
+    "url": "git+https://github.com/tode-analytics/tode-sdk.git",
     "directory": "packages/figma-vanilla"
   },
   "license": "MIT",
@@ -61,6 +61,6 @@
   },
   "homepage": "https://docs.usetode.dev",
   "bugs": {
-    "url": "https://github.com/kolebayev/tode-sdk/issues"
+    "url": "https://github.com/tode-analytics/tode-sdk/issues"
   }
 }

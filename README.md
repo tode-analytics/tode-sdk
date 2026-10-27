@@ -229,7 +229,7 @@ npm run build:react
 
 ## Contributing
 
-Issues and pull requests are welcome at [github.com/kolebayev/tode-sdk](https://github.com/kolebayev/tode-sdk). All six packages share one version and are released together; see [CHANGELOG.md](./CHANGELOG.md).
+Issues and pull requests are welcome at [github.com/tode-analytics/tode-sdk](https://github.com/tode-analytics/tode-sdk). All six packages share one version and are released together; see [CHANGELOG.md](./CHANGELOG.md).
 
 ## License
 
